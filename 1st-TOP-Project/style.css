@@ -1,0 +1,193 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+img{
+    width: auto;
+}
+.tile{
+    border: 4px solid #3882f6;
+    color: black;
+    width: 200px;
+    height: 200px;
+border-radius: 12px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    margin: 0;
+    padding: 10px;
+    
+}
+.headerlogo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    margin-left: 0px;
+}
+.headerlink {
+    font-size: 18px;
+    color: #e5e7eb;
+    align-items: center;
+    text-align: center;
+    margin-top: 4px;
+}
+.links{
+    display: flex;
+    gap: 16px;
+}
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.greeting{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 125px;
+    gap: 100px;
+}
+.theMeat {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 24px;
+    margin-top: 0;
+}
+.informationSection{
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+.infoHeader{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-top: 12px;
+    margin-bottom: 50px
+}
+.tiles {
+    display: flex;
+    gap: 16px;
+    margin: 20px;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.sec3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 120px;
+}
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    width: 1000px;
+}
+.credit{
+margin-left: 1000px;
+font-weight: bold;
+font-size: 18px;
+
+}
+.CTA {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+.ctaMeat {
+    border-radius: 8px;
+    background-color: #3882f6;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 80px;
+    margin-right: 80px;
+    gap: 80px ;
+    padding: 40px;
+}
+.text1 {
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 18px;
+}
+.text2 {
+font-size: 14px;
+color: #e5e7eb;
+}
+.SignMeUp {
+    border: 2px solid #e5e7eb;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 120px;
+}
+.footer {
+    align-items: center;
+    text-align: center;
+    background-color: #1f2937;
+    padding: 30px;
+    color: #e5e7eb;
+}
+.bigAssGreeting1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    max-width: 350px;
+
+}
+.bigAssGreeting2 {
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 500px;
+    margin-bottom: 8px;
+}
+.bigAssGreeting3 {
+    max-width: 125px;
+    padding: 10px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+}
+.theTiles{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.theText {
+    display: flex;
+    justify-content: center;
+    
+}
+.tileText {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 35px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
